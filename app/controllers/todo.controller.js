@@ -1,7 +1,7 @@
 const db = require("../models");
 const Todo = db.todo;
 
-// Create and Save a new Tutorial
+// Create and Save data
 exports.create = async(req, res) => {
   // Validate request
   if (!req.body.title) {
